@@ -46,9 +46,10 @@ export const BuscadorInputContainer = styled.div`
 export const Menu = styled.a`
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 25px;
-    color: #FFFFFF;
+    color: #E5E644;
+    cursor:pointer;
     margin-right: 12px;
     text-decoration:none;
 `

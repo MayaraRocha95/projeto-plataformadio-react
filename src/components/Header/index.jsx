@@ -9,29 +9,39 @@ import {
     BuscadorInputContainer,
     Input,
     Menu,
-    Column,
-    UserPicture,
-    } from  './styles';
+    UserPicture
+     } from  './styles';
 import { Button } from  '../Button';
 
 
-const Header = () => {
+const Header = ({autenticado}) => {
     return(
        <Wrapper>
          <Container>
          <Row>
                 <img src={logo} alt=" Logo da Dio" />
-                < BuscadorInputContainer>
+                {autenticado ? (
+                <>
+                <BuscadorInputContainer>
                 <Input  placeholder='Buscar...'/>
                 </BuscadorInputContainer>
                 <Menu>Live Code</Menu>
                 <Menu>Global</Menu>
+                </>
+                ) : null}
+                
             </Row>
             <Row>
-                <MenuRight href='#'>Home</MenuRight>
-                <Button title="Entrar"/>
-                <Button title="Cadastrar"/>
-            </Row>
+                {autenticado ? (
+                    <UserPicture src="https://avatars.githubusercontent.com/u/98711190?v=4" />
+                ) : (
+                    <>
+                       <MenuRight href='#'>Home</MenuRight>
+                       <Button title="Entrar"/>
+                       <Button title="Cadastrar"/>
+                    </>
+                )}
+             </Row>   
          </Container>
        </Wrapper>
     )
