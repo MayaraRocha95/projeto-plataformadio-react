@@ -27,7 +27,7 @@ Dentro do return, O componente mostra os componentes importados como <Header/>, 
 Os componentes <Title>, <TextContent> e <Button> são estilizados através de um arquivo de estilo importado e o <Container> também tem um estilo próprio.
 
  ##   Página de Login
-        ![login](https://user-images.githubusercontent.com/98711190/211641373-19011585-be83-4291-b08d-490b93447253.png)
+     ![login](https://user-images.githubusercontent.com/98711190/211641623-7bbae801-f5ac-47e4-aae8-7a05ea6b5921.png)
 
         
 Esse código também é uma função React que representa uma página de login de uma aplicação web. Ele importa alguns componentes de outros arquivos, como o Header, Input e Button, além de alguns ícones (MdEmail, MdLock) do pacote react-icons/md e outros pacotes de terceiros useForm, yupResolver, yup
@@ -39,8 +39,8 @@ Dentro do return, é mostrado o componente <Header/> e um <Container> que envolv
 Há uma forma onde é utilizado o handleSubmit(onSubmit) para coletar os dados do formulário, nele são usado o componente <Input> que contém dois inputs, um para o email e outro para a senha, ele contém uma validação de email e a senha deve ter no mínimo 3 caracteres. Após é mostrado um botão com "Entrar" e um texto "Esqueci minha senha" e um texto "Criar Conta" que se clicado redireciona para a tela de cadastro.
 
 ## Página de Cadastro
-        
-        ![cadastro](https://user-images.githubusercontent.com/98711190/211641449-71cb345f-1be6-4f05-bb91-c2100db381df.png)
+
+![cadastro](https://user-images.githubusercontent.com/98711190/211641655-afdd7cf7-92bb-4691-85b8-a81bc5404693.png)
 
 Esse código também é uma função React que representa uma página de cadastro de uma aplicação web. Ele importa alguns componentes de outros arquivos, como o Header, Input e Button, além de alguns ícones (MdEmail, MdLock, MdPerson, MdSettingsCell) do pacote react-icons/md e outros pacotes de terceiros useForm, yupResolver, yup
 
