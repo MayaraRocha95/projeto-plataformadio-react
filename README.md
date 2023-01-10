@@ -13,7 +13,11 @@
     O quarto código representa uma página de feed, onde o usuário pode ver os dados de seu feed, como lista de cards e ranking de usuários.
 
 
-## Página Home 
+##  Página Home 
+
+![home](https://user-images.githubusercontent.com/98711190/211641253-f6773b9d-a031-4f34-9ba0-389d5f5b55d7.png)
+
+
 Esse código é uma função React que representa uma página inicial de uma aplicação web. Ele importa alguns componentes de outros arquivos, como o Header e o Button, e também uma imagem (bannerImage).
 
 A função Home usa o hook useNavigate do pacote react-router-dom para acessar uma função que permite navegar entre as páginas da aplicação. Ele define uma função chamada handleClickSignIn que é chamada quando o botão "Começar agora" é clicado e usa essa função de navegação para redirecionar o usuário para a página de login.
@@ -22,7 +26,10 @@ Dentro do return, O componente mostra os componentes importados como <Header/>, 
 
 Os componentes <Title>, <TextContent> e <Button> são estilizados através de um arquivo de estilo importado e o <Container> também tem um estilo próprio.
 
-## Página de Login
+ ##   Página de Login
+        ![login](https://user-images.githubusercontent.com/98711190/211641373-19011585-be83-4291-b08d-490b93447253.png)
+
+        
 Esse código também é uma função React que representa uma página de login de uma aplicação web. Ele importa alguns componentes de outros arquivos, como o Header, Input e Button, além de alguns ícones (MdEmail, MdLock) do pacote react-icons/md e outros pacotes de terceiros useForm, yupResolver, yup
 
 A função Login usa o hook useNavigate do pacote react-router-dom para acessar uma função que permite navegar entre as páginas da aplicação. Também usa o hook useForm para gerenciar o estado do formulário de login e validações. Ele define uma função chamada handleClickSignUp que é chamada quando o texto "Criar Conta" é clicado e usa essa função de navegação para redirecionar o usuário para a página de cadastro.
@@ -32,6 +39,9 @@ Dentro do return, é mostrado o componente <Header/> e um <Container> que envolv
 Há uma forma onde é utilizado o handleSubmit(onSubmit) para coletar os dados do formulário, nele são usado o componente <Input> que contém dois inputs, um para o email e outro para a senha, ele contém uma validação de email e a senha deve ter no mínimo 3 caracteres. Após é mostrado um botão com "Entrar" e um texto "Esqueci minha senha" e um texto "Criar Conta" que se clicado redireciona para a tela de cadastro.
 
 ## Página de Cadastro
+        
+        ![cadastro](https://user-images.githubusercontent.com/98711190/211641449-71cb345f-1be6-4f05-bb91-c2100db381df.png)
+
 Esse código também é uma função React que representa uma página de cadastro de uma aplicação web. Ele importa alguns componentes de outros arquivos, como o Header, Input e Button, além de alguns ícones (MdEmail, MdLock, MdPerson, MdSettingsCell) do pacote react-icons/md e outros pacotes de terceiros useForm, yupResolver, yup
 
 A função Cadastro usa o hook useNavigate do pacote react-router-dom para acessar uma função que permite navegar entre as páginas da aplicação. Também usa o hook useForm para gerenciar o estado do formulário de cadastro e validações. Ele define uma função chamada handleClickSignIn que é chamada quando o botão "CRIAR MINHA CONTA GRÁTIS" é clicado e usa essa função de navegação para redirecionar o usuário para a página de feed.
@@ -41,6 +51,9 @@ Dentro do return, é mostrado o componente <Header/> e um <Container> que envolv
 Há uma forma onde é utilizado o handleSubmit(onSubmit) para coletar os dados do formulário, nele são usado o componente <Input> que contém 4 inputs, um para o nome, um para o email, outro para o celular e outro para a senha, O input de email possui uma validação de email e a senha deve ter no mínimo 3 caracteres. Após é mostrado um botão com "CRIAR MINHA CONTA GRÁTIS" e um texto "Ao clicar em "criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO." e um outro texto "Já tenho conta. Fazer login." que se clicado redireciona para a tela de login.
 
 ## Página do Feed
+        
+        ![feed](https://user-images.githubusercontent.com/98711190/211641419-d5762e00-2542-4ff2-bd21-faa2acc8c039.png)
+
 Esse código também é uma função React que representa uma página de feed de uma aplicação web. Ele importa alguns componentes de outros arquivos, como o Header, Card e UserInfo, além de estilos importados de um arquivo "styles.js"
 
 A função Feed rendereiza o componente <Header /> passando a propriedade autenticado={true}, o que significa que o usuário está autenticado e pode ver essa página. Também é mostrado um <Container> que envolve duas colunas <Column> que contém alguns elementos como <Title>, <TitleHighlight> e os componentes <Card> e <UserInfo> que são estilizados através do arquivo de estilo importado.
