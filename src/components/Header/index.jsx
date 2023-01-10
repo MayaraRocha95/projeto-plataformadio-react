@@ -34,8 +34,10 @@ const Header = ({autenticado}) => {
             <Row>
                 {autenticado ? (
                     <UserPicture src="https://avatars.githubusercontent.com/u/98711190?v=4" />
+                    
                 ) : (
                     <>
+
                        <MenuRight href='#'>Home</MenuRight>
                        <Button title="Entrar"/>
                        <Button title="Cadastrar"/>

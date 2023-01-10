@@ -63,8 +63,12 @@ export const ForText = styled.p`
   font-weight: 500;
   font-size: 14px;
   line-height: 19px;
-  color: #E5E644;
+  color: white;
   cursor:pointer;
+
+  strong{
+    color: #E23DD7;
+  }
 `;
 export const CreateText = styled.p`
   font-family: "Open Sans", sans-serif;
@@ -72,8 +76,12 @@ export const CreateText = styled.p`
   font-weight: 500;
   font-size: 14px;
   line-height: 19px;
-  color: #E23DD7;
+  color: white;
   cursor:pointer;
+
+  strong{
+    color: rgb(35, 221, 122);
+  }
 `;
 export const Range = styled.div`
 height: 0.5rem;
