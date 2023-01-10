@@ -26,8 +26,9 @@ Dentro do return, O componente mostra os componentes importados como <Header/>, 
 
 Os componentes <Title>, <TextContent> e <Button> são estilizados através de um arquivo de estilo importado e o <Container> também tem um estilo próprio.
 
- ##   Página de Login
-     ![login](https://user-images.githubusercontent.com/98711190/211641623-7bbae801-f5ac-47e4-aae8-7a05ea6b5921.png)
+##  Página de Login
+           
+![login](https://user-images.githubusercontent.com/98711190/211641905-0f9379f7-b1f7-4274-a71b-64ec5bf1146c.png)
 
         
 Esse código também é uma função React que representa uma página de login de uma aplicação web. Ele importa alguns componentes de outros arquivos, como o Header, Input e Button, além de alguns ícones (MdEmail, MdLock) do pacote react-icons/md e outros pacotes de terceiros useForm, yupResolver, yup
@@ -51,8 +52,8 @@ Dentro do return, é mostrado o componente <Header/> e um <Container> que envolv
 Há uma forma onde é utilizado o handleSubmit(onSubmit) para coletar os dados do formulário, nele são usado o componente <Input> que contém 4 inputs, um para o nome, um para o email, outro para o celular e outro para a senha, O input de email possui uma validação de email e a senha deve ter no mínimo 3 caracteres. Após é mostrado um botão com "CRIAR MINHA CONTA GRÁTIS" e um texto "Ao clicar em "criar minha conta grátis", declaro que aceito as Políticas de Privacidade e os Termos de Uso da DIO." e um outro texto "Já tenho conta. Fazer login." que se clicado redireciona para a tela de login.
 
 ## Página do Feed
-        
-        ![feed](https://user-images.githubusercontent.com/98711190/211641419-d5762e00-2542-4ff2-bd21-faa2acc8c039.png)
+   ![feed](https://user-images.githubusercontent.com/98711190/211641967-7b6f5fe5-f891-4286-ac0e-e1238a126950.png)
+
 
 Esse código também é uma função React que representa uma página de feed de uma aplicação web. Ele importa alguns componentes de outros arquivos, como o Header, Card e UserInfo, além de estilos importados de um arquivo "styles.js"
 
